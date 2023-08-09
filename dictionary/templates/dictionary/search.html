@@ -1,0 +1,12 @@
+{% extends 'dictionary/base.html' %}
+
+{% block title %} What's The Word {% endblock %}
+
+{% block content %}
+
+<h4>{{ definition }}</h4>
+
+<!-- this will display the word meaning -->
+<p>{{ matching_words }}</p>
+
+{% endblock %}
